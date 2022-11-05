@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 
-.main {
+main {
   padding: 36px;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .header--image {
   height: 100%;
-  margin-right: 1rem;
+  margin-right: .4rem;
 }
 
 .header--title {
@@ -40,7 +40,7 @@ body {
 /* FORM */
 
 .form {
-  margin-top: 2em;
+  margin-bottom: 2em;
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
@@ -61,4 +61,11 @@ body {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+/* MEME IMAGE */
+
+.meme--image {
+  height: 100%;
+  width: 100%;
 }
